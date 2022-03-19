@@ -1,0 +1,17 @@
+h1 {text-align: center; margin-top : 40px;}
+
+        #grille, #chiffres {margin:auto;border-collapse:collapse;}
+        td 
+        {
+            height:30px;
+            width:30px;
+            border:1px solid;
+            text-align:center;
+            vertical-align:middle;
+        }
+        td:first-child {border-left:solid;}
+        td:nth-child(3n) {border-right:solid;}
+        tr:first-child {border-top:solid;}
+        tr:nth-child(3n) td {border-bottom:solid;}
+
+        button {vertical-align:middle;}
